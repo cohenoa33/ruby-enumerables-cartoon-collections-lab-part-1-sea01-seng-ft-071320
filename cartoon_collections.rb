@@ -4,6 +4,7 @@
 def greet_characters(array)
   array.each do |characters|
     p "Hello #{characters.capitalize}!"
+  end
 end
 
 def list_dwarves(array)
